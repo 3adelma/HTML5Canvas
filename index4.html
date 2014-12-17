@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+  <canvas id="c" height= "600px" width= "600px"></canvas>
+  <script>
+    var c = document.querySelector('#c');
+    var ctx = c.getContext("2d");
+
+    ctx.fillStyle = "white";
+    ctx.strokeStyle ="black";
+    ctx.lineWidth = 3;
+    ctx.font = "36pt impact";
+
+
+    ctx.fillText("CANVAS MEMES!", 150, 150);
+    ctx.strokeText("CANVAS MEMES!", 150, 150);
+
+    ctx.fill();
+    ctx.stroke();
+  </script>
+</body>
+</html>
